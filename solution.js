@@ -69,12 +69,14 @@ function deepEqual(a, b) {
   // a recursive call to deepEqual.
 }
 
-module.exports.range = range;
-module.exports.sum = sum;
-module.exports.reverseArray = reverseArray;
-module.exports.reverseArrayInPlace = reverseArrayInPlace;
-module.exports.arrayToList = arrayToList;
-module.exports.listToArray = listToArray;
-module.exports.prepend = prepend;
-module.exports.nth = nth;
-module.exports.deepEqual = deepEqual;
+module.exports = {
+  range: range,
+  sum: sum,
+  reverseArray: reverseArray,
+  reverseArrayInPlace: reverseArrayInPlace,
+  arrayToList: arrayToList,
+  listToArray: listToArray,
+  prepend: prepend,
+  nth: nth,
+  deepEqual: deepEqual
+}
