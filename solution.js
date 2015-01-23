@@ -39,8 +39,7 @@ function arrayToList(arr) {
   // };
   //
   // Write a function arrayToList that builds up a data structure like
-  // the previous one when given [1, 2, 3] as argument, and write
-  // a function that produces an array from a list. It should use
+  // the previous one when given [1, 2, 3] as argument. It should use
   // helper function prepend.
 }
 
@@ -50,7 +49,7 @@ function listToArray(list) {
 
 function prepend(item, list) {
   // Write a function which takes an element and a list and creates a new list
-  // that adds the element to the front of the input list. and nth,
+  // that adds the element to the front of the input list.
 }
 
 function nth(n, list) {
