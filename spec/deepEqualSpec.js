@@ -29,6 +29,7 @@ describe("deepEqual", function() {
     it("works with references to different objects", function() {
       expect(deepEqual(obj, {here: 1, object: 2})).toBeFalsy();
       expect(deepEqual(obj, {here: {is: "an"}, object: 2})).toBeTruthy();
+      expect(deepEqual(obj, {here: {is: "an"}, object: 2, but: { with: "addition"}})).toBeFalsy();
     });
 
     it("works with references to null object", function() {
